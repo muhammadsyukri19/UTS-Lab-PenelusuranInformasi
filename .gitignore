@@ -1,0 +1,15 @@
+# Abaikan virtual environment
+UTS-PI/
+
+# Abaikan file sementara
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Abaikan file environment dan config lokal
+.env
+*.env
+.DS_Store
+.idea/
+.vscode/
