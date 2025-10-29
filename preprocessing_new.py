@@ -197,15 +197,15 @@ if __name__ == "__main__":
     datasets_to_run = [
         # AKTIFKAN dataset yang ingin diuji coba
         # 'etd_usk.csv',
-        'etd_ugm.csv',
+        # 'etd_ugm.csv',
         # 'kompas.csv',
         # 'tempo.csv',
-        # 'mojok.csv',
+        'mojok.csv',
     ]
     
     for ds in datasets_to_run:
          # Asumsi Kolom Teks = 'konten' dan Judul = 'judul'
          process_and_save_dataset(ds, text_column_name='konten', title_column_name='judul', max_rows=MAX_ROWS_TEST, enable_demo=ENABLE_DEMO)
 
-    print("\n--- SEMUA DATASET BERSIH TELAH DIUJI (30 Baris) DI FOLDER 'datasets_clean' ---")
-    print("Jika hasil demo bagus, ubah MAX_ROWS_TEST = None dan ENABLE_DEMO = False untuk proses penuh.")
+    # print("\n--- SEMUA DATASET BERSIH TELAH DIUJI (30 Baris) DI FOLDER 'datasets_clean' ---")
+    # print("Jika hasil demo bagus, ubah MAX_ROWS_TEST = None dan ENABLE_DEMO = False untuk proses penuh.")
